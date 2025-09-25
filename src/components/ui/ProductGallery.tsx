@@ -400,22 +400,22 @@ export default ProductGallery;
 export const sampleGalleryImages: GalleryImage[] = [
   {
     id: '1',
-    src: '/LaNik-/img/gorras/WhatsApp Image 2025-09-18 at 12.21.33.jpeg',
+    src: '/img/gorras/WhatsApp Image 2025-09-18 at 12.21.33.jpeg',
     alt: 'Gorra artesanal vista frontal',
   },
   {
     id: '2',
-    src: '/LaNik-/img/gorras/WhatsApp Image 2025-09-18 at 12.22.19.jpeg',
+    src: '/img/gorras/WhatsApp Image 2025-09-18 at 12.22.19.jpeg',
     alt: 'Gorra artesanal vista lateral',
   },
   {
     id: '3',
-    src: '/LaNik-/img/gorras/WhatsApp Image 2025-09-18 at 12.23.23.jpeg',
+    src: '/img/gorras/WhatsApp Image 2025-09-18 at 12.23.23.jpeg',
     alt: 'Gorra artesanal vista posterior',
   },
   {
     id: '4',
-    src: '/LaNik-/img/muñecos/WhatsApp Image 2025-09-20 at 10.44.36.jpeg',
+    src: '/img/muñecos/WhatsApp Image 2025-09-20 at 10.44.36.jpeg',
     alt: 'Muñeco artesanal detalle frontal',
   },
 ];
