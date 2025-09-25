@@ -61,8 +61,8 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-[4/5] bg-gradient-to-br from-amber-200 to-orange-200 rounded-2xl shadow-2xl overflow-hidden">
                 <img
-                  src="/img/about/artisan-weaving.jpg"
-                  alt="Artesana tejiendo a mano"
+                  src="/img/muñecos/WhatsApp Image 2025-09-20 at 10.44.36.jpeg"
+                  alt="Artesanía tradicional hecha a mano"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
@@ -269,8 +269,8 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/maria-wayuu.jpg"
-                  alt="María, artesana Wayuu"
+                  src="/img/ponchos/WhatsApp Image 2025-09-17 at 22.21.30.jpeg"
+                  alt="Trabajo artesanal de María - Ponchos tradicionales"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
@@ -296,8 +296,8 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/carlos-andino.jpg"
-                  alt="Carlos, artesano andino"
+                  src="/img/muñecos/WhatsApp Image 2025-09-20 at 10.45.08.jpeg"
+                  alt="Trabajo artesanal de Carlos - Muñecos tradicionales"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
@@ -323,8 +323,8 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/elena-designer.jpg"
-                  alt="Elena, diseñadora"
+                  src="/img/sweaters/WhatsApp Image 2025-09-17 at 22.18.50.jpeg"
+                  alt="Trabajo artesanal de Elena - Diseños en sweaters"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
