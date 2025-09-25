@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "id": "sweater-001",
+      "title": "Suéter de Alpaca Andina",
+      "price": 189000,
+      "currency": "COP",
+      "images": [
+        "/img/sweaters/sweater-alpaca-front.jpg",
+        "/img/sweaters/sweater-alpaca-back.jpg",
+        "/img/sweaters/sweater-alpaca-detail.jpg"
+      ],
+      "description": "Suéter tejido a mano con fibra de alpaca 100% natural. Diseño tradicional andino con patrones geométricos únicos. Perfecto para climas fríos, ofrece calidez y suavidad inigualables.",
+      "materials": [
+        "Fibra de alpaca 100%",
+        "Hilo natural sin teñir",
+        "Botones de madera artesanales"
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "care": [
+        "Lavar a mano con agua fría",
+        "Usar jabón neutro para lana",
+        "Secar en horizontal lejos del sol",
+        "No usar blanqueador",
+        "Planchar a baja temperatura si es necesario"
+      ],
+      "sku": "ALG-SWT-001",
+      "categories": ["suéteres", "alpaca", "invierno", "unisex"],
+      "featured": true,
+      "inStock": true,
+      "stockQuantity": 12
+    },
+    {
+      "id": "poncho-002", 
+      "title": "Poncho Tradicional Wayuu",
+      "price": 245000,
+      "currency": "COP",
+      "images": [
+        "/img/ponchos/poncho-wayuu-multicolor.jpg",
+        "/img/ponchos/poncho-wayuu-detail.jpg",
+        "/img/ponchos/poncho-wayuu-wearing.jpg"
+      ],
+      "description": "Poncho tejido por artesanas Wayuu con técnica ancestral. Diseño multicolor con símbolos tradicionales que narran historias de la cultura indígena. Pieza única e irrepetible.",
+      "materials": [
+        "Algodón 100% natural",
+        "Tintes naturales vegetales", 
+        "Técnica de tejido Wayuu tradicional"
+      ],
+      "sizes": ["Única"],
+      "care": [
+        "Lavar a mano con agua tibia",
+        "Usar detergente suave para colores",
+        "Secar a la sombra",
+        "No retorcer ni escurrir",
+        "Guardar colgado para mantener la forma"
+      ],
+      "sku": "WAY-PON-002",
+      "categories": ["ponchos", "wayuu", "tradicional", "multicolor"],
+      "featured": true,
+      "inStock": true,
+      "stockQuantity": 8
+    },
+    {
+      "id": "cap-003",
+      "title": "Gorra Artesanal de Lana Virgen",
+      "price": 65000,
+      "currency": "COP", 
+      "images": [
+        "/img/gorras/gorra-lana-beige.jpg",
+        "/img/gorras/gorra-lana-profile.jpg",
+        "/img/gorras/gorra-lana-texture.jpg"
+      ],
+      "description": "Gorra tejida a mano con lana virgen 100% natural. Diseño clásico y atemporal que combina perfectamente con cualquier atuendo. Ideal para protegerse del frío con estilo.",
+      "materials": [
+        "Lana virgen 100%",
+        "Forro interior de algodón",
+        "Visera reforzada"
+      ],
+      "sizes": ["S/M", "L/XL"],
+      "care": [
+        "Lavar a mano con agua fría",
+        "Usar champú para lana",
+        "Secar en horizontal manteniendo la forma",
+        "No usar secadora",
+        "Cepillar suavemente cuando esté seca"
+      ],
+      "sku": "LAN-GOR-003",
+      "categories": ["gorras", "lana", "accesorios", "unisex"],
+      "featured": false,
+      "inStock": true,
+      "stockQuantity": 25
+    },
+    {
+      "id": "cardigan-004",
+      "title": "Cardigan Bohemio de Algodón Orgánico", 
+      "price": 156000,
+      "currency": "COP",
+      "images": [
+        "/img/sweaters/cardigan-bohemio-open.jpg",
+        "/img/sweaters/cardigan-bohemio-closed.jpg",
+        "/img/sweaters/cardigan-bohemio-detail.jpg"
+      ],
+      "description": "Cardigan de estilo bohemio tejido con algodón orgánico. Diseño relajado y versátil perfecto para crear looks casuales o elegantes. Textura suave y caída natural.",
+      "materials": [
+        "Algodón orgánico certificado",
+        "Botones de coco natural",
+        "Hilos eco-friendly"
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "care": [
+        "Lavar en máquina ciclo delicado",
+        "Agua fría 30°C máximo",
+        "Detergente ecológico",
+        "Secar al aire libre",
+        "Planchar a temperatura media"
+      ],
+      "sku": "ECO-CAR-004", 
+      "categories": ["cardigans", "bohemio", "algodón", "eco-friendly"],
+      "featured": false,
+      "inStock": true,
+      "stockQuantity": 15
+    },
+    {
+      "id": "vest-005",
+      "title": "Chaleco Andino de Llama",
+      "price": 134000,
+      "currency": "COP",
+      "images": [
+        "/img/sweaters/chaleco-llama-front.jpg",
+        "/img/sweaters/chaleco-llama-back.jpg", 
+        "/img/sweaters/chaleco-llama-wearing.jpg"
+      ],
+      "description": "Chaleco tradicional andino tejido con fibra de llama. Diseño sin mangas perfecto para usar como capa intermedia. Patrón geométrico ancestral en tonos tierra naturales.",
+      "materials": [
+        "Fibra de llama 100%",
+        "Tintes naturales minerales",
+        "Técnica de tejido ancestral"
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "care": [
+        "Lavar en seco preferiblemente",
+        "Si lava a mano, agua muy fría",
+        "Jabón especial para fibras naturales",
+        "Secar completamente horizontal",
+        "No usar suavizantes"
+      ],
+      "sku": "AND-CHL-005",
+      "categories": ["chalecos", "llama", "andino", "tradicional"],
+      "featured": false,
+      "inStock": true,
+      "stockQuantity": 18
+    },
+    {
+      "id": "sweater-006",
+      "title": "Suéter Crop de Mohair Premium",
+      "price": 198000,
+      "currency": "COP",
+      "images": [
+        "/img/sweaters/crop-mohair-cream.jpg",
+        "/img/sweaters/crop-mohair-detail.jpg",
+        "/img/sweaters/crop-mohair-styled.jpg"
+      ],
+      "description": "Suéter crop moderno tejido con mohair premium. Diseño contemporáneo que fusiona técnicas tradicionales con estilo actual. Textura esponjosa y ligera, perfecta para entretiempo.",
+      "materials": [
+        "Mohair premium 70%",
+        "Seda natural 30%",
+        "Acabado artesanal"
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "care": [
+        "Lavar a mano exclusivamente",
+        "Agua fría con jabón para mohair",
+        "No frotar ni torcer",
+        "Secar horizontal sobre toalla",
+        "Cepillar suavemente cuando esté seco"
+      ],
+      "sku": "MOH-CRP-006",
+      "categories": ["suéteres", "mohair", "crop", "premium", "moderno"],
+      "featured": true,
+      "inStock": true,
+      "stockQuantity": 10
+    }
+  ],
+  "metadata": {
+    "totalProducts": 6,
+    "lastUpdated": "2024-09-24",
+    "categories": [
+      "suéteres",
+      "ponchos", 
+      "gorras",
+      "cardigans",
+      "chalecos"
+    ],
+    "materials": [
+      "alpaca",
+      "algodón",
+      "lana",
+      "mohair", 
+      "llama"
+    ],
+    "priceRange": {
+      "min": 65000,
+      "max": 245000,
+      "currency": "COP"
+    }
+  }
+}

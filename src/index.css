@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales personalizados */
+@layer base {
+  body {
+    @apply bg-amber-50 text-gray-900 font-sans;
+  }
+}
+
+@layer components {
+  /* Componentes personalizados para el e-commerce artesanal */
+  .btn-primary {
+    @apply bg-amber-600 hover:bg-amber-700 text-white font-medium px-4 py-2 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-amber-100 hover:bg-amber-200 text-amber-800 font-medium px-4 py-2 rounded-md transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+  
+  /* Efectos para productos artesanales */
+  .product-card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+  }
+  
+  .artisan-gradient {
+    @apply bg-gradient-to-r from-amber-600 to-orange-600;
+  }
+}
+
+@layer utilities {
+  /* Utilidades personalizadas */
+  .text-balance {
+    text-wrap: balance;
+  }
+}
