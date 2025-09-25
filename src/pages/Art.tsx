@@ -34,7 +34,7 @@ const Art: React.FC = () => {
   const paintings: Painting[] = [
     {
       id: 1,
-      filename: 'WhatsApp Image 2025-09-20 at 10.42.19.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.42.19.webp',
       title: 'Serenidad de la Montaña',
       story: 'En esta obra, el artista captura ese momento mágico donde el sol toca por primera vez las cumbres nevadas. La técnica realista contemporánea nos transporta a esos amaneceres donde el silencio de los Andes habla más fuerte que cualquier palabra. Cada pincelada es un homenaje a la majestuosidad que solo quien ha vivido entre montañas puede comprender.',
       technique: 'Óleo sobre lienzo',
@@ -42,7 +42,7 @@ const Art: React.FC = () => {
     },
     {
       id: 2,
-      filename: 'WhatsApp Image 2025-09-20 at 10.42.44.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.42.44.webp',
       title: 'Danza de los Ancestros',
       story: 'Los colores vibran con la energía de generaciones que danzan en el tiempo. Esta pieza nace de noches de ceremonias donde el pasado se hace presente, donde cada movimiento cuenta una historia que trasciende épocas. El expresionismo cultural se convierte aquí en un puente entre mundos.',
       technique: 'Acrílico sobre madera',
@@ -50,7 +50,7 @@ const Art: React.FC = () => {
     },
     {
       id: 3,
-      filename: 'WhatsApp Image 2025-09-20 at 10.43.06.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.43.06.webp',
       title: 'Espíritu del Bosque',
       story: 'La selva respira en formas abstractas que solo el corazón puede descifrar. Cada trazo orgánico es un susurro de hojas, cada color verde una nota en la sinfonía de vida que nunca cesa. Esta abstracción nace de caminar descalzo entre raíces milenarias.',
       technique: 'Mixta sobre papel',
@@ -58,7 +58,7 @@ const Art: React.FC = () => {
     },
     {
       id: 4,
-      filename: 'WhatsApp Image 2025-09-20 at 10.43.32.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.43.32.webp',
       title: 'Corazón de la Tierra',
       story: 'Pachamama late en cada símbolo, en cada pigmento extraído de su propio vientre. El neo-indigenismo encuentra aquí su voz más pura, donde la conexión ancestral no es nostalgia sino presente vivo. Los símbolos prehispánicos dialogan con sensibilidades contemporáneas.',
       technique: 'Pigmentos naturales sobre lienzo',
@@ -66,7 +66,7 @@ const Art: React.FC = () => {
     },
     {
       id: 5,
-      filename: 'WhatsApp Image 2025-09-20 at 10.51.42.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.51.42.webp',
       title: 'Geometrías Sagradas',
       story: 'Las matemáticas ancestrales cobran vida en patrones que trascienden el tiempo. Cada línea es un cálculo preciso de culturas que veían en la geometría el lenguaje de los dioses. Los diseños Nazca y Moche encuentran nueva vida en témpera contemporánea.',
       technique: 'Témpera sobre tabla',
@@ -74,7 +74,7 @@ const Art: React.FC = () => {
     },
     {
       id: 6,
-      filename: 'WhatsApp Image 2025-09-20 at 10.55.16.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.55.16.webp',
       title: 'Reflejos del Alma',
       story: 'El oro no adorna, revela. En este retrato simbólico, cada elemento es un espejo donde el observador encuentra fragmentos de su propia búsqueda. El simbolismo contemporáneo se vuelve introspección colectiva, donde emociones y sueños toman forma tangible.',
       technique: 'Óleo y oro sobre lienzo',
@@ -82,7 +82,7 @@ const Art: React.FC = () => {
     },
     {
       id: 7,
-      filename: 'WhatsApp Image 2025-09-20 at 10.55.55.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.55.55.webp',
       title: 'La Vida en la Ciudad',
       story: 'Lima respira en cada detalle hiperrealista. Las calles cuentan historias de contrastes donde la belleza surge del caos urbano. Esta obra documenta no solo lo visible sino lo invisible: las almas que transitan, sueñan y construyen ciudad cada día.',
       technique: 'Acrílico hiperrealista',
@@ -90,7 +90,7 @@ const Art: React.FC = () => {
     },
     {
       id: 8,
-      filename: 'WhatsApp Image 2025-09-20 at 10.56.28.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.56.28.webp',
       title: 'Amanecer en los Andes',
       story: 'Desde el Cusco hasta el Salar de Uyuni, la cordillera despierta con colores que solo el pastel puede capturar en su textura etérea. Cada amanecer andino es único, irrepetible, como esta obra que nace de la observación paciente de la luz que danza entre picos nevados.',
       technique: 'Pastel sobre papel texturado',
@@ -98,7 +98,7 @@ const Art: React.FC = () => {
     },
     {
       id: 9,
-      filename: 'WhatsApp Image 2025-09-20 at 10.57.04.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.57.04.webp',
       title: 'Ritual de la Lluvia',
       story: 'Las comunidades aymaras invocan el agua con movimientos que esta obra traduce en color puro. El expresionismo ritual encuentra aquí su máxima expresión: formas dinámicas que danzan como los cuerpos en ceremonia, colores intensos como la fe que mueve montañas.',
       technique: 'Acrílico y pigmentos sobre tela',
@@ -106,7 +106,7 @@ const Art: React.FC = () => {
     },
     {
       id: 10,
-      filename: 'WhatsApp Image 2025-09-20 at 10.58.06.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.58.06.webp',
       title: 'Texturas de la Memoria',
       story: 'Los muros de adobe guardan siglos de historias que esta obra hace tangibles. Cada textura es un recuerdo colectivo, cada relieve una cicatriz del tiempo que se vuelve belleza. La memoria colonial cobra vida en elementos texturales que invitan al tacto y la reflexión.',
       technique: 'Mixta con elementos texturales',
@@ -114,7 +114,7 @@ const Art: React.FC = () => {
     },
     {
       id: 11,
-      filename: 'WhatsApp Image 2025-09-20 at 10.58.35.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.58.35.webp',
       title: 'Círculo de la Vida',
       story: 'La chakana cobra vida en formato circular donde tiempo y espacio se unifican. El concepto andino del tiempo cíclico encuentra expresión visual en una composición que no tiene inicio ni fin, como la vida misma que se renueva eternamente en ciclos sagrados.',
       technique: 'Óleo en formato circular',
@@ -122,7 +122,7 @@ const Art: React.FC = () => {
     },
     {
       id: 12,
-      filename: 'WhatsApp Image 2025-09-20 at 10.59.02.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.59.02.webp',
       title: 'Melodías Visuales',
       story: 'Las zampoñas y quenas suenan en colores fluidos que danzan sobre el lienzo. Esta sinestesia visual permite ver la música ancestral, transformar sonido en forma, ritmo en color. Cada festividad andina encuentra aquí su equivalente cromático en abstracción pura.',
       technique: 'Acrílico fluido sobre lienzo',
@@ -130,7 +130,7 @@ const Art: React.FC = () => {
     },
     {
       id: 13,
-      filename: 'WhatsApp Image 2025-09-20 at 10.59.24.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 10.59.24.webp',
       title: 'Diversidad Cultural',
       story: 'El Perú multicultural habla en lenguajes visuales diversos que esta obra unifica sin homogeneizar. Cada grupo étnico aporta su paleta, su textura, su visión del mundo en un collage que celebra la diferencia como riqueza colectiva.',
       technique: 'Collage y pintura sobre madera',
@@ -138,7 +138,7 @@ const Art: React.FC = () => {
     },
     {
       id: 14,
-      filename: 'WhatsApp Image 2025-09-20 at 11.00.43.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.00.43.webp',
       title: 'Esencia Minimalista',
       story: 'La filosofía zen encuentra los Andes en trazos que dicen más callando que gritando. La tinta china abraza el papel de arroz para crear espacios de silencio donde la naturaleza andina revela su esencia más pura en la simplicidad más profunda.',
       technique: 'Tinta china sobre papel de arroz',
@@ -146,7 +146,7 @@ const Art: React.FC = () => {
     },
     {
       id: 15,
-      filename: 'WhatsApp Image 2025-09-20 at 11.05.07.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.05.07.webp',
       title: 'Realismo Mágico',
       story: 'García Márquez pinta con pinceles peruanos donde lo cotidiano se transfigura en extraordinario. El oro no es lujo sino luz que revela la magia escondida en cada esquina de nuestra realidad, donde lo imposible es solo otra forma de verdad.',
       technique: 'Óleo con detalles en hoja de oro',
@@ -154,7 +154,7 @@ const Art: React.FC = () => {
     },
     {
       id: 16,
-      filename: 'WhatsApp Image 2025-09-20 at 11.14.12.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.14.12.webp',
       title: 'Artesanía Onírica',
       story: 'Los sueños toman forma en arcilla como lo hacían los maestros alfareros precolombinos. El surrealismo abraza técnicas milenarias para crear objetos imposibles que solo el subconsciente puede concebir y las manos ancestrales materializar.',
       technique: 'Cerámica pintada y mixta',
@@ -162,7 +162,7 @@ const Art: React.FC = () => {
     },
     {
       id: 17,
-      filename: 'WhatsApp Image 2025-09-20 at 11.14.43.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.14.43.webp',
       title: 'Cosmos Andino',
       story: 'Tres mundos se unifican en pigmentos extraídos de la propia tierra: Hanan Pacha, Kay Pacha y Uray Pacha danzan en armonía sobre piedra milenaria. Los observatorios de Chankillo inspiran esta cosmología visual donde astronomía ancestral se vuelve arte contemporáneo.',
       technique: 'Pigmentos minerales sobre piedra',
@@ -170,7 +170,7 @@ const Art: React.FC = () => {
     },
     {
       id: 18,
-      filename: 'WhatsApp Image 2025-09-20 at 11.15.21.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.15.21.webp',
       title: 'Ecos del Pasado',
       story: 'Los huacos retratos mochicas conversan con el metal oxidado del presente. El grabado establece puentes temporales donde iconografía arqueológica encuentra nueva voz sin perder su esencia, creando diálogos entre civilizaciones separadas por siglos.',
       technique: 'Grabado y pigmentos sobre metal oxidado',
@@ -178,7 +178,7 @@ const Art: React.FC = () => {
     },
     {
       id: 19,
-      filename: 'WhatsApp Image 2025-09-20 at 11.16.23.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.16.23.webp',
       title: 'Transformación',
       story: 'El Perú moderno muta en capas pictóricas que documentan cambios sociales profundos. Cada capa cuenta una etapa de transformación donde lo personal se vuelve colectivo, donde evolución individual refleja metamorfosis nacional.',
       technique: 'Mixta evolutiva sobre múltiples capas',
@@ -186,7 +186,7 @@ const Art: React.FC = () => {
     },
     {
       id: 20,
-      filename: 'WhatsApp Image 2025-09-20 at 11.16.45.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.16.45.webp',
       title: 'Sinfonía de Colores',
       story: 'Los mercados tradicionales explotan en acrílicos de alta pigmentación donde cada color canta su propio himno. Las festividades cobran vida en tonalidades que compiten en intensidad pero dialogan en armonía, creando sinfonías visuales vibrantes.',
       technique: 'Acrílico de alta pigmentación',
@@ -194,7 +194,7 @@ const Art: React.FC = () => {
     },
     {
       id: 21,
-      filename: 'WhatsApp Image 2025-09-20 at 11.17.58.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.17.58.webp',
       title: 'Guardián Silencioso',
       story: 'Los apus velan desde incrustaciones de piedra natural que los mismos cerros donaron para esta obra. Guardianes milenarios que protegen el equilibrio cósmico encuentran expresión material en óleo que abraza fragmentos de las montañas que representan.',
       technique: 'Óleo con incrustaciones de piedras naturales',
@@ -202,7 +202,7 @@ const Art: React.FC = () => {
     },
     {
       id: 22,
-      filename: 'WhatsApp Image 2025-09-20 at 11.19.19.jpeg',
+      filename: 'WhatsApp Image 2025-09-20 at 11.19.19.webp',
       title: 'Renacer',
       story: 'El Ayni se materializa en una obra que envejece y se renueva como los ciclos agrícolas andinos. Los elementos orgánicos degradables integrados en la mixta permiten que la pieza evolucione con el tiempo, convirtiendo el deterioro en parte de la obra misma.',
       technique: 'Mixta con elementos orgánicos degradables',
