@@ -61,7 +61,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-[4/5] bg-gradient-to-br from-amber-200 to-orange-200 rounded-2xl shadow-2xl overflow-hidden">
                 <img
-                  src="/img/muñecos/WhatsApp Image 2025-09-20 at 10.44.36.jpeg"
+                  src="/img/muñecos/muneco1.jpeg"
                   alt="Artesanía tradicional hecha a mano"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -269,7 +269,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/ponchos/WhatsApp Image 2025-09-17 at 22.21.30.jpeg"
+                  src="/img/ponchos/poncho1.jpeg"
                   alt="Trabajo artesanal de María - Ponchos tradicionales"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -296,7 +296,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/muñecos/WhatsApp Image 2025-09-20 at 10.45.08.jpeg"
+                  src="/img/muñecos/muneco2.jpeg"
                   alt="Trabajo artesanal de Carlos - Muñecos tradicionales"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -323,7 +323,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/sweaters/WhatsApp Image 2025-09-17 at 22.18.50.jpeg"
+                  src="/img/sweaters/sueter1.jpeg"
                   alt="Trabajo artesanal de Elena - Diseños en sweaters"
                   className="w-full h-full object-cover"
                   onError={(e) => {

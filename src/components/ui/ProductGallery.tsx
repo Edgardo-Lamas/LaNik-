@@ -400,12 +400,12 @@ export default ProductGallery;
 export const sampleGalleryImages: GalleryImage[] = [
   {
     id: '1',
-    src: '/img/gorras/WhatsApp Image 2025-09-18 at 12.21.33.jpeg',
+    src: '/img/gorras/gorro1.jpeg',
     alt: 'Gorra artesanal vista frontal',
   },
   {
     id: '2',
-    src: '/img/gorras/WhatsApp Image 2025-09-18 at 12.22.19.jpeg',
+    src: '/img/gorras/gorro2.jpeg',
     alt: 'Gorra artesanal vista lateral',
   },
   {
@@ -415,7 +415,7 @@ export const sampleGalleryImages: GalleryImage[] = [
   },
   {
     id: '4',
-    src: '/img/muñecos/WhatsApp Image 2025-09-20 at 10.44.36.jpeg',
+    src: '/img/muñecos/muneco1.jpeg',
     alt: 'Muñeco artesanal detalle frontal',
   },
 ];
