@@ -61,7 +61,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-[4/5] bg-gradient-to-br from-amber-200 to-orange-200 rounded-2xl shadow-2xl overflow-hidden">
                 <img
-                  src="/img/about/artisan-weaving.jpg"
+                  src="/LaNik-/img/about/artisan-weaving.jpg"
                   alt="Artesana tejiendo a mano"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -269,7 +269,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/maria-wayuu.jpg"
+                  src="/LaNik-/img/team/maria-wayuu.jpg"
                   alt="María, artesana Wayuu"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -296,7 +296,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/carlos-andino.jpg"
+                  src="/LaNik-/img/team/carlos-andino.jpg"
                   alt="Carlos, artesano andino"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -323,7 +323,7 @@ const About: React.FC = () => {
             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-amber-200 to-orange-200">
                 <img
-                  src="/img/team/elena-designer.jpg"
+                  src="/LaNik-/img/team/elena-designer.jpg"
                   alt="Elena, diseñadora"
                   className="w-full h-full object-cover"
                   onError={(e) => {

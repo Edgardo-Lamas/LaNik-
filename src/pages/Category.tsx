@@ -27,7 +27,7 @@ const Category: React.FC<CategoryPageProps> = ({
     slug: 'gorras',
     description: 'Colección completa de gorras artesanales bordadas a mano con diseños únicos y materiales de alta calidad. Cada pieza es única y refleja la tradición artesanal de nuestros maestros.',
     productCount: 23,
-    image: '/img/gorras/WhatsApp Image 2025-09-18 at 12.21.33.jpeg',
+    image: '/LaNik-/img/gorras/WhatsApp Image 2025-09-18 at 12.21.33.jpeg',
   },
   products = sampleProducts.filter(p => p.category.toLowerCase() === 'gorras'),
   loading = false,

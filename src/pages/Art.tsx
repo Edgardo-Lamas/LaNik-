@@ -331,7 +331,7 @@ const Art: React.FC = () => {
                   >
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                       <img
-                        src={`/img/pinturas/${item.content.filename}`}
+                        src={`/LaNik-/img/muñecos/${item.content.filename}`}
                         alt={item.content.title}
                         loading="lazy"
                         className="w-full h-auto transform transition-transform duration-700 group-hover:scale-110"
@@ -435,7 +435,7 @@ const Art: React.FC = () => {
                 
                 <div className="relative">
                   <img
-                    src={`/img/pinturas/${selectedPainting.filename}`}
+                    src={`/LaNik-/img/muñecos/${selectedPainting.filename}`}
                     alt={selectedPainting.title}
                     loading="lazy"
                     className="w-full h-full object-cover"
