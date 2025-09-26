@@ -252,6 +252,158 @@ const Home: React.FC<HomeProps> = ({
         </div>
       </section>
 
+      {/* Nuestras Prendas en Acción Section */}
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-earth-50 to-warm-50" aria-label="Nuestras prendas en acción">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold text-earth-800 mb-4">
+              Nuestras Prendas en Acción
+            </h2>
+            <p className="text-lg text-earth-600 max-w-3xl mx-auto">
+              Descubre cómo nuestras creaciones artesanales se lucen en la vida real. Cada prenda cuenta una historia única y refleja el amor por los detalles.
+            </p>
+          </div>
+
+          {/* Masonry Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
+            {/* Imagen Grande - Especial 1 */}
+            <div className="col-span-2 row-span-2 group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-[1.02]">
+              <img
+                src="/LaNik-/img/destacadas/especial1.webp"
+                alt="Suéter artesanal de alta calidad"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-6 group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-xl font-bold mb-2">Diseño Especial</h3>
+                <p className="text-warm-100 text-sm">Prendas únicas que reflejan nuestra pasión artesanal</p>
+              </div>
+            </div>
+
+            {/* Imagen Mediana - Gorra 1 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/gorras1.webp"
+                alt="Gorra tejida a mano"
+                className="w-full h-48 md:h-56 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h4 className="font-semibold">Gorras Artesanales</h4>
+              </div>
+            </div>
+
+            {/* Imagen Mediana - Poncho 1 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/ponchos1.webp"
+                alt="Poncho tradicional tejido"
+                className="w-full h-48 md:h-56 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h4 className="font-semibold">Ponchos Tradicionales</h4>
+              </div>
+            </div>
+
+            {/* Imagen Pequeña - Pulóver 3 */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/pulover3.webp"
+                alt="Pulóver de punto detallado"
+                className="w-full h-32 md:h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+
+            {/* Imagen Mediana - Especial 2 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/especial2.webp"
+                alt="Conjunto artesanal premium"
+                className="w-full h-40 md:h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h4 className="font-semibold">Colección Premium</h4>
+              </div>
+            </div>
+
+            {/* Imagen Grande Vertical - Poncho 2 */}
+            <div className="row-span-2 group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
+              <img
+                src="/LaNik-/img/destacadas/ponchos2.webp"
+                alt="Poncho colorido tradicional"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-5 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-lg font-bold mb-1">Ponchos Coloridos</h3>
+                <p className="text-warm-100 text-sm">Tradición y color en cada hebra</p>
+              </div>
+            </div>
+
+            {/* Imagen Mediana - Pulóver 1 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/pulover1.webp"
+                alt="Pulóver con patrón único"
+                className="w-full h-40 md:h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h4 className="font-semibold">Pulóveres Únicos</h4>
+              </div>
+            </div>
+
+            {/* Imagen Pequeña - Gorra 2 */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/gorras2.webp"
+                alt="Gorra con bordado especial"
+                className="w-full h-32 md:h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+
+            {/* Imagen Mediana - Pulóver 4 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <img
+                src="/LaNik-/img/destacadas/pulover4.webp"
+                alt="Pulóver de diseño contemporáneo"
+                className="w-full h-40 md:h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <h4 className="font-semibold">Diseño Contemporáneo</h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-16">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-accent-500 rounded-full mb-4">
+              <svg className="w-8 h-8 text-warm-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+            </div>
+            <h3 className="text-2xl font-bold text-earth-800 mb-3">¿Te Gusta Lo Que Ves?</h3>
+            <p className="text-earth-600 mb-6 max-w-md mx-auto">
+              Cada prenda es única y está esperando por ti. Explora nuestra colección completa.
+            </p>
+            <button
+              onClick={() => console.log('Navigate to gallery')}
+              className="inline-flex items-center px-8 py-3 bg-accent-500 hover:bg-accent-600 text-warm-50 font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:ring-offset-2"
+            >
+              Ver Toda la Colección
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Products Section */}
       <section 
         id="featured-products" 
