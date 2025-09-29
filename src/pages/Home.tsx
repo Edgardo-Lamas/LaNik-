@@ -138,10 +138,10 @@ const Home: React.FC<HomeProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-warm-50">
+    <div className="min-h-screen bg-lanik-beige">
       {/* Hero Section */}
       <section 
-        className="relative h-screen flex items-center justify-center bg-gradient-to-br from-earth-800 via-earth-700 to-earth-600"
+        className="relative h-screen flex items-center justify-center artisan-gradient"
         role="banner"
         aria-label="Sección principal"
       >
@@ -153,13 +153,13 @@ const Home: React.FC<HomeProps> = ({
               alt="Artesanías handyman"
               className="w-full h-full object-cover opacity-20"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-earth-900/60 via-earth-800/40 to-earth-700/60" />
+            <div className="absolute inset-0 bg-lanik-terracota/30" />
           </div>
         )}
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-warm-50 mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-lanik-crema mb-6 leading-tight">
             {hero.title.split('\n').map((line, index) => (
               <span key={index} className="block">
                 {line}
@@ -167,13 +167,13 @@ const Home: React.FC<HomeProps> = ({
             ))}
           </h1>
           
-          <p className="text-xl sm:text-2xl text-warm-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-lanik-crema mb-8 max-w-2xl mx-auto leading-relaxed opacity-90">
             {hero.subtitle}
           </p>
 
           <button
             onClick={scrollToProducts}
-            className="inline-flex items-center px-8 py-4 bg-accent-500 hover:bg-accent-600 text-warm-50 font-semibold text-lg rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-accent-400 focus:ring-offset-2 focus:ring-offset-earth-800"
+            className="btn-primary text-lg rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-lanik-mostaza focus:ring-offset-2"
             aria-label={hero.ctaText}
           >
             {hero.ctaText}
@@ -185,20 +185,20 @@ const Home: React.FC<HomeProps> = ({
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <svg className="w-6 h-6 text-warm-100" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <svg className="w-6 h-6 text-lanik-crema" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>
       </section>
 
       {/* Categories Section */}
-      <section className="py-16 lg:py-24 bg-warm-50" aria-label="Categorías destacadas">
+      <section className="py-16 lg:py-24 bg-lanik-crema" aria-label="Categorías destacadas">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-earth-800 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-lanik-terracota mb-4">
               Nuestras Categorías
             </h2>
-            <p className="text-lg text-earth-600 max-w-2xl mx-auto">
+            <p className="text-lg text-lanik-oliva max-w-2xl mx-auto">
               Explora nuestra amplia selección de productos artesanales únicos, cada uno creado con dedicación y técnicas tradicionales.
             </p>
           </div>

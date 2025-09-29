@@ -1,35 +1,195 @@
+@import './styles/color-palette.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos globales personalizados */
+/* Estilos globales personalizados con paleta LaNik artesanal */
 @layer base {
   body {
-    @apply bg-amber-50 text-gray-900 font-sans;
+    @apply bg-lanik-beige text-lanik-oliva font-sans;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-lanik-terracota font-serif;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    @apply text-lanik-terracota hover:text-lanik-mostaza transition-colors duration-300;
+  }
+  
+  p {
+    @apply text-lanik-oliva;
+    font-size: 1rem;
   }
 }
 
 @layer components {
-  /* Componentes personalizados para el e-commerce artesanal */
+  /* Componentes personalizados para LaNik - Prendas artesanales */
   .btn-primary {
-    @apply bg-amber-600 hover:bg-amber-700 text-white font-medium px-4 py-2 rounded-md transition-colors duration-200;
+    background-color: var(--color5);
+    color: var(--color4);
+    border: 2px solid var(--color2);
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    font-family: inherit;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color2);
+    transform: translateY(-2px);
   }
   
   .btn-secondary {
-    @apply bg-amber-100 hover:bg-amber-200 text-amber-800 font-medium px-4 py-2 rounded-md transition-colors duration-200;
+    background-color: var(--color4);
+    color: var(--color3);
+    border: 2px dashed var(--color2);
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    font-family: inherit;
   }
   
+  .btn-secondary:hover {
+    background-color: var(--color1);
+    transform: translateY(-2px);
+  }
+  
+  /* ================================
+     Tarjetas de producto - Versión Tejida Realista
+     ================================ */
   .card {
-    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+    background-color: var(--color4);
+    border: 2px dashed var(--color2); /* bordes estilo puntada */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    max-width: 260px;
+    position: relative;
+
+    /* Textura tipo tejido realista */
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        rgba(0,0,0,0.02),
+        rgba(0,0,0,0.02) 1px,
+        transparent 1px,
+        transparent 5px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0.02),
+        rgba(0,0,0,0.02) 1px,
+        transparent 1px,
+        transparent 5px
+      );
+    background-size: 10px 10px; /* ajusta la densidad del patrón */
+  }
+
+  /* Bordes tipo hilo más pronunciados */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    pointer-events: none;
+    background-image:
+      repeating-linear-gradient(
+        135deg,
+        rgba(217,183,97,0.2),
+        rgba(217,183,97,0.2) 1px,
+        transparent 1px,
+        transparent 6px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        rgba(217,183,97,0.2),
+        rgba(217,183,97,0.2) 1px,
+        transparent 1px,
+        transparent 6px
+      );
+    opacity: 0.15;
+  }
+
+  /* Hover con efecto elevación y luz */
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+  }
+
+  /* Imagen dentro de la tarjeta */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--color2);
+    border-radius: 12px 12px 0 0;
+  }
+
+  /* Títulos y textos */
+  .card h3 {
+    margin: 10px 0 5px 0;
+    font-family: 'Playfair Display', serif;
+    color: var(--color2);
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    color: var(--color3);
+    text-align: center;
+  }
+
+  /* Layout de tarjetas */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
   }
   
   /* Efectos para productos artesanales */
   .product-card {
-    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+    background-color: var(--color4);
+    border: 2px dashed var(--color2);
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
   }
   
   .artisan-gradient {
-    @apply bg-gradient-to-r from-amber-600 to-orange-600;
+    background: linear-gradient(to right, var(--color2), var(--color5));
+  }
+  
+  /* Header y navegación */
+  .header-bg {
+    background-color: var(--color2);
+    color: var(--color4);
+  }
+  
+  /* Footer */
+  .footer-bg {
+    background-color: var(--color3);
+    color: var(--color4);
   }
 }
 

@@ -7,42 +7,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Paleta cálida tierra y marfil
-        warm: {
-          50: '#fdfcfb',    // marfil muy claro
-          100: '#f8f5f0',   // marfil
-          200: '#f0e6d2',   // beige claro
-          300: '#e8d5b7',   // beige
-          400: '#d4b896',   // arena
-          500: '#c4986a',   // tierra clara
-          600: '#a67c52',   // tierra media
-          700: '#8b5a3c',   // tierra oscura
-          800: '#704732',   // marrón
-          900: '#5c3a2a',   // marrón oscuro
+        // Paleta personalizada LaNik usando nuevas variables CSS
+        'lanik': {
+          'beige': 'var(--color1)',     // #F5E6D3 - Beige cálido
+          'terracota': 'var(--color2)', // #D9826C - Terracota
+          'oliva': 'var(--color3)',     // #A2B29F - Verde oliva
+          'crema': 'var(--color4)',     // #FFF4E1 - Crema
+          'mostaza': 'var(--color5)',   // #E0B761 - Mostaza
         },
-        earth: {
-          50: '#f9f7f4',
-          100: '#f3ede3',
-          200: '#e6d6c1',
-          300: '#d9bf9f',
-          400: '#cc9f73',
-          500: '#b8824c',   // color principal tierra
-          600: '#9d6d3f',
-          700: '#7f5632',
-          800: '#654429',
-          900: '#4a3220',
+        // Mantener algunos colores de Tailwind para compatibilidad
+        white: '#ffffff',
+        black: '#000000',
+        gray: {
+          50: '#f9fafb',
+          100: '#f3f4f6',
+          200: '#e5e7eb',
+          300: '#d1d5db',
+          400: '#9ca3af',
+          500: '#6b7280',
+          600: '#4b5563',
+          700: '#374151',
+          800: '#1f2937',
+          900: '#111827',
         },
-        accent: {
-          50: '#fef7f0',
-          100: '#fdeee1',
-          200: '#fbd5b5',
-          500: '#f4a261',   // terracota suave
-          600: '#e76f51',   // terracota
-          700: '#d55e3a',
-        }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Montserrat', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
       },
     },
   },

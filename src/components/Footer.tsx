@@ -9,20 +9,22 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-amber-900 to-orange-900 text-white">
+    <footer className="footer-bg">
       {/* Sección principal del footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Información de la empresa */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H</span>
-              </div>
-              <h3 className="text-2xl font-bold">HANDYMAN</h3>
+            <div className="flex items-center space-x-4 mb-4">
+              <img 
+                src="/LaNik-/img/lanik-logo-final.webp" 
+                alt="LaNik Logo"
+                className="w-14 h-14 object-contain"
+              />
+              <h3 className="text-3xl font-bold text-lanik-crema">LaNik</h3>
             </div>
             
-            <p className="text-amber-100 mb-6 max-w-md leading-relaxed">
+            <p className="text-lanik-crema mb-6 max-w-md leading-relaxed opacity-90">
               Preservamos tradiciones milenarias a través de prendas tejidas a mano. 
               Cada pieza cuenta una historia de amor, dedicación y arte ancestral.
             </p>

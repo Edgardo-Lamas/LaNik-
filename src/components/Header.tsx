@@ -24,27 +24,29 @@ const Header: React.FC = () => {
    */
   const getNavLinkClasses = (path: string): string => {
     const baseClasses = "font-medium transition-colors duration-300";
-    const activeClasses = "text-amber-700 border-b-2 border-amber-600";
-    const inactiveClasses = "text-amber-800 hover:text-amber-700 hover:border-b-2 hover:border-amber-400";
+    const activeClasses = "text-lanik-mostaza border-b-2 border-lanik-mostaza";
+    const inactiveClasses = "text-lanik-crema hover:text-lanik-mostaza hover:border-b-2 hover:border-lanik-mostaza";
     
     return `${baseClasses} ${isActiveRoute(path) ? activeClasses : inactiveClasses}`;
   };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="header-bg shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
             <Link 
               to="/" 
-              className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+              className="flex items-center space-x-4 hover:opacity-80 transition-opacity"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H</span>
-              </div>
-              <div className="text-2xl font-bold text-amber-900">
-                HANDYMAN
+              <img 
+                src="/LaNik-/img/lanik-logo-final.webp" 
+                alt="LaNik Logo"
+                className="w-16 h-16 object-contain"
+              />
+              <div className="text-3xl font-bold text-lanik-crema">
+                LaNik
               </div>
             </Link>
           </div>
